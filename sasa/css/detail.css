@@ -1,0 +1,582 @@
+.content {
+  width: 100%;
+  background: #ebebeb;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+.content .main-content {
+  width: 1090px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.content .main-content .product-source {
+  height: 20px;
+  line-height: 20px;
+  color: #888;
+  margin-bottom: 15px;
+}
+.content .main-content .product-source a {
+  color: #888;
+}
+.content .main-content .product-detail .product-detail-top {
+  margin-bottom: 30px;
+  background: #fff;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-left {
+  width: 500px;
+  float: left;
+  padding: 25px;
+  position: relative;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-left .mirror {
+  display: none;
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  top: 50px;
+  right: -440px;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  background: #fff;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-left .mirror img {
+  position: absolute;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-left .product-detail-img {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  cursor: move;
+  position: relative;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-left .product-detail-img .handle {
+  height: 150px;
+  width: 180px;
+  background-color: #b3d5ff;
+  opacity: 0.5;
+  cursor: move;
+  top: 0;
+  left: 0;
+  display: none;
+  position: absolute;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-left .product-detail-tips {
+  width: 88%;
+  margin: 0 auto 20px;
+  color: #3e3e3e;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-left .product-detail-tips img {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-left .product-detail-album {
+  margin-top: 10px;
+  position: relative;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-left .product-detail-album .prev-btn {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 105px;
+  line-height: 100px;
+  text-align: center;
+  margin-top: 5px;
+  color: #cccccc;
+  cursor: pointer;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-left .product-detail-album .album-list {
+  margin: 0 auto;
+  padding-top: 5px;
+  width: 450px;
+  height: 105px;
+  position: relative;
+  overflow: hidden;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-left .product-detail-album .album-list ul {
+  width: 550px;
+  position: absolute;
+  top: 0;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-left .product-detail-album .album-list ul li {
+  float: left;
+  margin-right: 5px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-left .product-detail-album .album-list ul li a {
+  display: block;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-left .product-detail-album .album-list ul li a img {
+  max-height: 60px;
+  max-width: 60px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-left .product-detail-album .album-list ul li .active {
+  border: 5px solid #e5cbb2;
+  height: 96px;
+  width: 96px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-left .product-detail-album .next-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 16px;
+  height: 105px;
+  line-height: 100px;
+  text-align: center;
+  margin-top: 5px;
+  color: #cccccc;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right {
+  float: right;
+  width: 460px;
+  padding-top: 25px;
+  margin-right: 40px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-title {
+  padding-bottom: 30px;
+  font-size: 22px;
+  text-align: left;
+  line-height: 26px;
+  font-weight: 100;
+  color: #3e3e3e;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-title a {
+  color: #3e3e3e;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-price {
+  padding-bottom: 10px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-price .current-price {
+  font-size: 35px;
+  line-height: 42px;
+  color: #EC3E7D;
+  font-weight: 900;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-price .old-price {
+  margin: 0 15px;
+  color: #888;
+  text-decoration: line-through;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-price .discount {
+  font-size: 16px;
+  color: #cb9966;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-activity {
+  padding: 20px 0;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-activity ul li {
+  color: #3e3e3e;
+  padding: 5px 0;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-activity ul li div {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  background: #71D2C3;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: 900;
+  padding: 0 10px;
+  margin-right: 5px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-evaluate {
+  padding: 10px 0 10px 0;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-evaluate i {
+  color: #c29b60;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-buy {
+  border-bottom: 1px solid #dfdfdf;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-buy .buy-count {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-buy .buy-count a {
+  display: inline-block;
+  background: #f2f2f2;
+  color: #3e3e3e;
+  border: 1px solid #f2f2f2;
+  vertical-align: middle;
+  height: 21px;
+  width: 20px;
+  font-weight: 900;
+  text-align: center;
+  font-size: 20px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-buy .buy-count a:hover {
+  color: #fff;
+  border-color: #ddd;
+  background: #ddd;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-buy .buy-count input {
+  width: 30px;
+  height: 21px;
+  line-height: 21px;
+  border: 1px solid #f2f2f2;
+  text-align: center;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-buy .buy-btn {
+  padding-bottom: 30px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-buy .buy-btn a {
+  display: block;
+  float: left;
+  height: 50px;
+  width: 200px;
+  line-height: 50px;
+  text-align: center;
+  background: #ec3e7d;
+  margin-right: 15px;
+  font-weight: 900;
+  color: #fff;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-buy .buy-btn span {
+  height: 50px;
+  width: 200px;
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+  float: left;
+  border: 1px solid #dedede;
+  color: #999;
+  cursor: pointer;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-buy .buy-btn span .barcode {
+  display: none;
+  height: 196px;
+  width: 196px;
+  border: 1px solid #999;
+  position: absolute;
+  left: 0;
+  top: -200px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-buy .buy-btn span .barcode img {
+  height: 100%;
+  width: 100%;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-share {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: #3e3e3e;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-share span {
+  float: left;
+  line-height: 20px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-share span i {
+  margin-right: 5px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-share b {
+  float: right;
+  line-height: 20px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-share b i {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  vertical-align: top;
+  margin-right: 3px;
+  background: url(../images/share.png) no-repeat;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-share b .bj1 {
+  background-position: 0 -100px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-share b .bj2 {
+  background-position: 0 -80px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-share b .bj3 {
+  background-position: 0 -60px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-share b .bj4 {
+  background-position: 0 -40px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-share b .bj5 {
+  background-position: 0 -20px;
+}
+.content .main-content .product-detail .product-detail-top .product-detail-top-right .product-detail-info .product-detail-share b .bj6 {
+  background-position: 0 0px;
+}
+.content .main-content .product-detail .product-detail-bottom {
+  margin-top: 30px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-left {
+  float: left;
+  width: 253px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-left .same-classes {
+  margin-top: 30px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-left .history {
+  margin-top: 30px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-left .left-title {
+  height: 48px;
+  line-height: 48px;
+  color: #404040;
+  padding-left: 30px;
+  font-size: 18px;
+  border-left: 5px solid #c69a62;
+  background: #fff;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-left .left-history {
+  font-size: 16px;
+  padding-left: 12px;
+  border-bottom: 1px solid #ebebeb;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-left .left-history-list li {
+  height: 69px;
+  border-top: 1px dashed #d4d4d4;
+  background: #fff;
+  padding: 20px 10px;
+  margin-top: -1px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-left .left-history-list li a img {
+  height: 69px;
+  width: 69px;
+  display: inline-block;
+  float: left;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-left .left-history-list li .left-history-list-detail {
+  margin-left: 79px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-left .left-history-list li .left-history-list-detail .left-history-list-detail-name {
+  width: 100%;
+  line-height: 20px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-left .left-history-list li .left-history-list-detail .left-history-list-detail-name a {
+  color: #3e3e3e;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-left .left-history-list li .left-history-list-detail .left-history-list-detail-price {
+  color: #EC3E7D;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-left .left-history-list li .left-history-list-detail .left-history-list-detail-price i {
+  font-size: 12px;
+  color: #959595;
+  margin-left: 10px;
+  text-decoration: line-through;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right {
+  float: right;
+  width: 253px;
+  width: 811px;
+  margin-bottom: 30px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-bar {
+  height: 76px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-bar .item-bar-content {
+  height: 50px;
+  width: 811px;
+  background: #fff;
+  z-index: 999;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-bar .item-bar-content .item-bar-list {
+  float: left;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-bar .item-bar-content .item-bar-list a {
+  color: #555c67;
+  display: block;
+  float: left;
+  padding: 2px 26px;
+  line-height: 44px;
+  height: 43px;
+  font-size: 16px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-bar .item-bar-content .item-bar-list .active {
+  border-bottom: 3px  solid #c69a62;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-bar .item-bar-content .item-bar-buy-btn {
+  float: right;
+  line-height: 50px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-bar .item-bar-content .item-bar-buy-btn span {
+  float: left;
+  margin-right: 50px;
+  font-size: 24px;
+  color: #EC3E7D;
+  font-weight: 900;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-bar .item-bar-content .item-bar-buy-btn a {
+  float: left;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #EC3E7D;
+  color: #fff;
+  padding: 0 20px;
+  font-size: 16px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-specs {
+  margin-bottom: 26px;
+  padding-top: 20px;
+  background: #fff;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-specs .specs-title {
+  background-position: 110px 3px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-specs ul {
+  padding: 30px 45px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-specs ul li {
+  padding: 6px 0;
+  color: #333;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-specs ul li span {
+  float: left;
+  display: block;
+  width: 140px;
+  color: #666;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-specs ul li div {
+  float: right;
+  width: 580px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-detail {
+  margin-bottom: 26px;
+  padding-top: 20px;
+  background: #fff;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-detail .detail-title {
+  background-position: 110px -46px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-detail dl {
+  padding: 40px 30px;
+  color: #3e3e3e;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-detail dl dt {
+  font-weight: 900;
+  height: 40px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-detail dl dd {
+  height: 40px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate {
+  margin-bottom: 26px;
+  padding-top: 20px;
+  background: #fff;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-title {
+  background-position: 110px -146px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content {
+  padding: 10px;
+  line-height: 24px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content .evaluate-content-score {
+  margin-top: 20px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content .evaluate-content-score .evaluate-score .evaluate-score-num {
+  color: #db3f7e;
+  font-size: 24px;
+  padding-left: 45px;
+  line-height: 40px;
+  float: left;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content .evaluate-content-score .evaluate-score .evaluate-score-num p {
+  float: left;
+  margin-right: 5px;
+  font-size: 48px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content .evaluate-content-score .evaluate-score .evaluate-score-star {
+  float: left;
+  color: #c29b60;
+  margin-left: 20px;
+  line-height: 40px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content .evaluate-content-score .evaluate-pop {
+  margin-left: 45px;
+  padding: 10px 0;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content ul {
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content ul li {
+  margin-bottom: 50px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content ul li .member {
+  float: left;
+  width: 145px;
+  text-align: center;
+  margin-right: 5px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content ul li .member .member-img {
+  line-height: 60px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content ul li .member .member-img i {
+  font-size: 60px;
+  color: #e4e4e4;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content ul li .member .member-name {
+  .line-height: 16px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content ul li .member-discuss {
+  width: 575px;
+  margin-left: 150px;
+  padding: 20px 24px;
+  background: #f2f2f2;
+  border-radius: 2px;
+  position: relative;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content ul li .member-discuss .member-discuss-label {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #EC3E7D;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content ul li .member-discuss .member-discuss-label .member-discuss-title {
+  display: inline-block;
+  margin-right: 20px;
+  color: #EC3E7D;
+  font-size: 18px;
+  width: 40%;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content ul li .member-discuss .member-discuss-label .member-discuss-point-star {
+  margin-left: 5px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content ul li .member-discuss .member-discuss-label .member-discuss-point-star i {
+  color: #c29b60;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content ul li .member-discuss .member-discuss-content {
+  padding: 10px 0;
+  line-height: 40px;
+  min-height: 50px;
+  color: #3e3e3e;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content ul li .member-discuss .member-discuss-time {
+  color: #bebebe;
+  line-height: 40px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-evaluate .evaluate-content ul li .member-discuss:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-right: 20px solid #f2f2f2;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  height: 0;
+  width: 0;
+  top: 20px;
+  left: -20px;
+}
+.content .main-content .product-detail .product-detail-bottom .product-detail-bottom-right .item-title {
+  border-left: 3px solid #DB3F7E;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 10px;
+  font-size: 21px;
+  color: #3e3e3e;
+  background: url(../images/probt.png) no-repeat;
+}

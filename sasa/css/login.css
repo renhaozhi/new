@@ -1,0 +1,127 @@
+/*content*/
+
+.content {
+	width: 100%;
+	background: #fff;
+}
+
+.login-logo {
+	width: 1090px;
+	height: 95px;
+	margin: 0 auto;
+}
+
+.login-logo h1 {
+	margin-top: 21px;
+	float: left;
+}
+
+.login-main-content {
+	width:1090px;
+	margin:0 auto;
+	margin-top:40px;
+	background:url(../images/register_banner.jpg) no-repeat 0 center;
+}
+.login-box{
+	background:#fff;
+	float:right;
+	width:350px;
+	padding:35px;
+	margin-right:68px;
+	box-shadow: 0 0 5px #e1e1e1,0 0 15px #e1e1e1;
+}
+.login-box p{}
+.login-box p span{
+	float:left;
+	font-size:21px;
+	color:#5a5d6c;
+}
+.login-box p b{
+	float:right;
+}
+.login-box p b i{
+	font-size:12px;
+	color:#5A5D6C;
+}
+.login-box p b a{
+	font-size:12px;
+	color:#ec3e7d;
+}
+.login-main{
+	margin-top:40px;
+}
+.login-main li{
+	height:61px;
+	width:350px;
+}
+.login-main li .login-data{
+	position: relative;
+	height:36px;
+	line-height:36px;
+}
+.login-main li .login-data div{
+	position: absolute;
+	left:0;top:2px;
+	height:36px;
+	width:30px;
+	background:url(../images/q.png) no-repeat;
+	float:left;
+}
+.login-main li .login-data .login-data-user{
+	background-position: center -120px ;
+	font-size:16px;
+}
+.login-main li .login-data .login-data-pwd{
+	background-position: center -160px;
+	font-size:16px;
+}
+.login-main li .login-data input{
+	padding-left:30px;
+	line-height:34px;
+	width:320px;
+	border:1px solid #ccc;
+}
+
+.login-main li .remeber-me{
+	height:34px;
+}
+.login-main li .remeber-me input{
+	vertical-align: middle;
+	line-height:34px;
+}
+.login-main li .remeber-me span{
+	margin: 0 10px;
+}
+.login-main li .remeber-me a{
+	margin: 0 10px;
+	color:#ed3f7e;
+}
+.login-main li .login-submit{
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	color:#fff;
+	font-size:16px;
+	width:350px;
+	background: #ec3e7d;
+	border:0;
+	font-family: "微软雅黑";
+}
+.login-main .login-others{
+	height:22px;
+	padding-top:29px;
+	
+}
+.login-others-list a{
+	display: block;
+	float:left;
+	width:115px;
+	padding:10px 0;
+	font-size:12px;
+	color:#3e3e3e;
+}
+.login-others-list a img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right:5px;
+}

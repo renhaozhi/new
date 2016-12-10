@@ -1,0 +1,153 @@
+/*content*/
+
+.content {
+	width: 100%;
+	background: #fff;
+}
+
+.register-logo {
+	width: 1090px;
+	height: 95px;
+	margin: 0 auto;
+}
+
+.register-logo h1 {
+	margin-top: 21px;
+	float: left;
+}
+
+.register-main-content {
+	width:1090px;
+	margin:0 auto;
+	margin-top:40px;
+	background:url(../images/register_banner.jpg) no-repeat 0 center;
+}
+.register-box{
+	background:#fff;
+	float:right;
+	width:350px;
+	padding:35px;
+	margin-right:68px;
+	box-shadow: 0 0 5px #e1e1e1,0 0 15px #e1e1e1;
+}
+.register-box p{}
+.register-box p span{
+	float:left;
+	font-size:21px;
+	color:#5a5d6c;
+}
+.register-box p b{
+	float:right;
+}
+.register-box p b i{
+	font-size:12px;
+	color:#5A5D6C;
+}
+.register-box p b a{
+	font-size:12px;
+	color:#ec3e7d;
+}
+.register-main{
+	margin-top:40px;
+}
+.register-main li{
+	height:61px;
+	width:350px;
+}
+.register-main li input{
+	border:1px solid #ccc;
+	padding: 4px;
+	height:26px;
+	line-height:26px;
+}
+.register-main li .warning{
+	height:25px;
+	line-height:24px;
+	color:#666;
+	display: none;
+}
+.register-main li .warning .warning-symbol{
+	display: inline-block;
+	vertical-align: middle;
+	text-align:center;
+	border-radius:50%;
+	width:14px;
+	line-height:16px;
+	color:#fff;
+	background:#db3f7e;
+	margin-right:5px;
+}
+.register-username input{
+	width:340px;
+}
+.register-password .register-password-content{
+	height:34px;width:348px;
+}
+
+.register-password .register-password-content input{
+	width:340px;
+}
+.register-password .register-password-content .register-password-level{
+	position: absolute;
+	width:26px;height:26px;
+	margin-right:10px;
+}
+.register-repassword input{
+	width:340px;
+}
+.register-checkcode-content{
+	line-height:37px;
+}
+.register-checkcode-content input{
+	float:left;
+	width:120px;
+}
+.register-checkcode-content .register-checkcode-block{
+	width:80px;height:36px;float:left;
+	text-align: center;
+	margin-left:5px;
+	font-size:20px;
+	color:#fff;
+	background:#C69A62;
+	cursor: pointer;
+}
+.register-checkcode-content a{
+	margin-left: 5px;
+	color:#666;
+}
+.register-messagecode{
+	display: none;
+}
+.register-messagecode .register-messagecode-content-txt{
+	width:120px;
+	float:left;
+}
+.register-messagecode .register-messagecode-content-btn{
+	float:right;
+	padding:0 30px;
+	display: block;
+	height:36px;
+	line-height:36px;
+	background:#ee407f;
+	border:0;
+	color:#fff;
+}
+.register-protocal .register-protocal-contents{
+	height:36px;
+	line-height:36px;
+	vertical-align: middle;
+}
+.register-protocal .register-protocal-contents input{
+	vertical-align: middle;
+	margin-right:5px;
+}
+.register-submit button{
+	height:36px;
+	width:350px;
+	color:#fff;
+	text-align:center;
+	line-height:36px;
+	background:#ee407f;
+	border:0;
+	font:16px "微软雅黑";
+} 
